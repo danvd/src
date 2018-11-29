@@ -609,6 +609,10 @@ file	dev/hotplug.c			hotplug	needs-flag
 pseudo-device pppoe: ifnet, ether, sppp
 file 	net/if_pppoe.c			pppoe	needs-flag
 
+pseudo-device l2tp: ifnet
+file 	net/if_l2tp.c			l2tp	needs-flag
+
+
 pseudo-device kcov
 file	dev/kcov.c			kcov	needs-flag
 
